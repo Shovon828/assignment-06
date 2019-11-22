@@ -1,0 +1,255 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/*head top*/
+header{
+	background-color: #F6F9F9;
+	width: 100%;
+	float: left;
+}
+header img{
+	display: inline-block;
+	float: left;
+	padding: 10px 5px 0px 0px;
+}
+header h1{
+	float: left;
+	font-size: 30pt;
+	color: black;
+}
+/*2nd part start*/
+.banar{
+	background: url(../image/background01.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.banar .banar-heading{
+	font-size: 100pt;
+	text-align: center;
+	color: white;
+}
+.bar-custom{
+	text-align: center;
+	border-bottom: 2px solid #15A4FA;
+	margin: 30px 0px;
+	margin: 0 auto;
+}
+.banar .banar-para{
+	font-size: 20pt;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 60px;
+
+}
+.btn-custom{
+	background-color: transparent;
+	border:2px solid white;
+	color:white;
+	margin-bottom: 60px;
+}
+.banar .banar-icon{
+	color: white;
+	margin-bottom: 80px;
+	display: block;
+	font-size: 35pt;
+}
+
+.third-part{
+	background-color: #F6F9F9;
+	width: 100%;
+	float: left;
+}
+.third-part-heading{
+	text-align: center;
+	font-size: 40pt;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.third-part-para{
+	text-align: center;
+	color: #9F9F9F;
+	font-size: 17pt;
+	margin-bottom: 80px;
+}
+/*Fourth Part start*/
+.fourth-part{
+	background-color: white;
+	width: 100%;
+	float: left;
+}
+.fourth-part .para-one{
+	float: left;
+    text-align: center;
+    height: 300px;
+    margin-top: 30px;
+}
+
+
+.fourth-part .fourth-part-icon{
+	background: linear-gradient(to left, #48baff 50%, #5fc3ff 50%);
+    padding: 20pt;
+    font-size: 50pt;
+    height: 110px;
+    width: 110px;
+    color: white;
+}
+.fourth-part .para-one-heading{
+	font-size: 22pt;
+	padding: 20px 0px 20px 0px;
+}
+.fourth-part .para-one-parag{
+	font-size: 15pt;
+	color: #A0A0A0;
+}
+/*Fifth part start showcase*/
+.fifth-part{
+	background-color: #F6F9F9;
+	width: 100%;
+	float: left;
+}
+.fifth-part .fifth-part-heading{
+	font-size: 38pt;
+	margin-top: 70px;
+}	
+.fifth-part .fifth-part-parag{
+	font-size: 15pt;
+	color: #A7A8A8;
+	text-align: center;
+	margin: 30px 0px 50px 0px;
+}
+.fifth-part .fifth-part-pic{
+	width: 100%;
+
+}
+.fifth-part .image-galari-two{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/*Form part start*/
+.form-part{
+	background:url(../image/form-bg.png);
+	width: 100%;
+	float: left;
+}
+
+.form-part .form-part-heading{
+	font-size: 40pt;
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+}
+.form-part .form-part-parag{
+	font-size: 15pt;
+	color: #929394;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+form{
+	color: white;
+}
+.form-part .form-text{
+	width: 100%;
+	padding: 5px 10px;
+	background-color: transparent;
+	margin: 10px 0px;
+	border:2px solid #999999;
+	border-radius: 10px;
+}
+.form-part .form-text-aria{
+	height: 200px;
+	width: 100%;
+	background-color: transparent;
+	border:2px solid #999999;
+	border-radius: 10px;
+
+
+
+}
+.form-part .form-chack-box{
+	margin-top: 10px;
+}
+.form-part .btn-custom-form{
+	background-color: transparent;
+	border:2px solid white;
+	color: white;
+	float: right;
+	margin: 10px 0px;
+}
+
+/*Footer part start*/
+footer{
+	width: 100%;
+	background-color: #F6F9F9;
+	float: left;
+}
+.footer-right-parag{
+	color: #A7A8A8;
+	font-size: 15pt;
+	margin-top: 20px;
+	display: inline-block;
+}
+.footer-ul{
+	list-style: none;
+	float: right;
+}
+.footer-ul li{
+	display: inline-block;
+}
+.footer-ul a{
+	text-decoration: none;
+}
+.footer-icon{
+	margin-top: 20px;
+	font-size: 20pt;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #15A4FA;
+}
+
+
+/*Media quyary start*/
+/* Medium devices (landscape tablets, 768px and up) */
+
+/*fifth part media quary*/
+@media only screen and (max-width: 768px) 
+{
+	.fifth-part-heading{
+		font-size: 18pt;
+		text-align: center;
+	}
+	.fifth-part-parag{
+		font-size: 12pt;
+		text-align: center;
+	}
+	.fifth-part-pic img{
+		width: 100%;
+		margin-top: 5px;
+	}
+}
+
+/*footer part*/
+@media only screen and (max-width: 768px) 
+{
+	footer{
+		width: 100%;
+		float: left;
+	}
+	.footer-right-parag{
+		margin-left: : 20px;
+		margin: 10px 0px;
+		display: block;
+	}
+	.footer-ul {
+		margin-left: 20px;
+}
